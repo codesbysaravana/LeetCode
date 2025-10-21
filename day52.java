@@ -18,7 +18,7 @@ class day52 {
     public static int[] bruteforce(int[] temperatures) {
         int n = temperatures.length;
         int[] arr = new int[n]; // result array to store days until warmer temp
-        int count = 0; // not needed for logic, just counting comparisons if you want
+        //int count = 0; // not needed for logic, just counting comparisons if you want
         
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
@@ -26,7 +26,7 @@ class day52 {
                     arr[i] = j - i; // found a warmer day
                     break; // stop checking further days
                 }
-                count++; // counts number of failed comparisons
+            //    count++; // counts number of failed comparisons
             }
         }
         return arr;
@@ -62,7 +62,7 @@ class day52 {
 
         sc.close();
 
-        Student s1 = new Student(102, "Saravana", 92.0f);
+        //Student s1 = new Student(102, "Saravana", 92.0f);
 
     }
 }

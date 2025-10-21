@@ -15,6 +15,8 @@ class day43 {
             zeroCount++;
             temp = temp/10;
         }
+
+        return zeroCount;
     }
 
     //optimized
@@ -25,18 +27,20 @@ class day43 {
             n = n/5;
             zeroCount = zeroCount+n; 
         }
+
+        return zeroCount;
     }
 
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
+       // int n = sc.nextInt();
 
         //brute-force
         //int result = zeroesBrute(n);
 
-        int result = trailingZeroes(n);
+        //int result = trailingZeroes(n);
     }
 }
 

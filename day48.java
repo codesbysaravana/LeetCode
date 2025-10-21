@@ -2,7 +2,7 @@ import java.util.*;
 
 class day48 {
     public static int[][] brute(int[][] mergethis) {
-        
+        return new int[0][0];
     } 
 
     public static void main(String[] args) {
