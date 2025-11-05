@@ -33,7 +33,7 @@ public int numSubarraysWithSum(int[] nums, int goal) {
     int sum = 0, res = 0;
 
     for (int n : nums) {
-        sum += n;
+        sum = sum + n;
         if (map.containsKey(sum - goal)) {
             res += map.get(sum - goal);
         }
