@@ -27,7 +27,7 @@ class Water {
         int maxArea = 0;
 
         while (i < j) {
-            // calculate the  area
+            // calculate the area
             int width = j - i;
             int h = Math.min(height[i], height[j]);
             int area = width * h;
