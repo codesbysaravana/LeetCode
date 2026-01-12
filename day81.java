@@ -95,7 +95,7 @@ class Solution {
 
         ListNode l1 = list1;
         ListNode l2 = list2;
-
+        
         ListNode dummy = new ListNode(0);
         ListNode curr = dummy;
 
